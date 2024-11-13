@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: '600',
     color: '#696969',
+    marginStart: 20,
   },
   /* Estilos para Header */
   header: {
@@ -40,6 +41,32 @@ const styles = StyleSheet.create({
   headerMenuIcon: {
     height: 25,
     width: 25,
+  },
+  /* Estilos para Home */
+  cardsContainer: {
+    flexDirection: 'row',
+    gap: 20,
+    marginTop: 10,
+    paddingHorizontal: 20,
+    display: 'flex',
+    justifyContent: 'center',
+  },
+  card: {
+    height: 90,
+    width: 160,
+    backgroundColor: '#1D1D1D',
+    borderRadius: 10,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  cardLabel: {
+    color: '#b3b3b3',
+  },
+  cardValue: {
+    fontSize: 36,
+    fontWeight: '600',
+    color: '#fff',
   },
 });
 
