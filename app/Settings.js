@@ -19,7 +19,6 @@ export default function HomeScreen() {
       duration: 1000, // 1 segundo
       useNativeDriver: false,
     }).start(() => {
-      console.log('Abrindo modal...');
       setShowModal(true);
     });
   };

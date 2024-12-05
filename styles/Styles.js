@@ -179,7 +179,7 @@ const styles = StyleSheet.create({
     paddingBottom: 4,
     zIndex: 1,
   },
-  /* Estilo para o modal de confirmação */
+  /* Estilo para o modal de confirmação 
   modalContainer: {
     flex: 1,
     justifyContent: 'center',
